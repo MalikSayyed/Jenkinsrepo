@@ -8,7 +8,7 @@ pipeline {
         S3_BUCKET = 'testingblog.info'            // Your S3 bucket name
         CLOUDFRONT_DISTRIBUTION_ID = 'E2FFJ6J5AXA2PB'    // Your CloudFront distribution ID
         REGION = 'us-east-1'                          // Your AWS region (e.g., us-west-2)
-        WEBSITE_DIRECTORY = './build'                 // Your local website directory after build
+        WEBSITE_DIRECTORY = './build'                 // Your  website directory after build
     }
 
     stages {
