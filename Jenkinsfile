@@ -2,7 +2,7 @@ pipeline{
     agent any 
     environment {
     AWS_DEFAULT_REGION = "us-east-1"
-    THE_BUTLER_SAYS_SO = credentials('jenkins-aws')
+    THE_BUTLER_SAYS_SO = credentials('cc5cf938-f6ed-4259-a236-690a9e1c8a8d')
     }
     stages {
         stage ('Build'){
